@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.profile-info{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.tag-line{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.google-login-container{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.profile-img{
+  border-radius: 50%;
+}
+
+.logout-btn{
+  padding:5px 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:aliceblue;
+  background-color: rgb(238, 57, 93);
+  border:none;
+  border-radius: 2px;
+  font-size: 17px;
+  opacity:0.8;
+}
+
+.logout-btn:hover{
+  opacity:1;
+  transition: 0.4s;
+  cursor: pointer;
+}
